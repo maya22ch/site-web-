@@ -5,6 +5,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1 th:text="${name}"> </h1>
+	<h1 th:text=" 'hello ' + ${#strings.capitalize(name)} + ' !'"> Hello Soumaya</h1>
 </body>
 </html>
